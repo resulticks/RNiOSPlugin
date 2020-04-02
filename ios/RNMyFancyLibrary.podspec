@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/author/RNMyFancyLibrary.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/resulticks/RNiOSPlugin.git", :tag => "master" }
   s.source_files  = "RNMyFancyLibrary/**/*.{h,swift,framework,m}"
   s.requires_arc = true
   s.dependency "React"

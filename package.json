@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RajaramLakshmanan/RNLibraryExample.git",
-    "baseUrl": "https://github.com/RajaramLakshmanan/RNLibraryExample"
+    "url": "git+https://github.com/resulticks/RNiOSPlugin.git",
+    "baseUrl": "https://github.com/resulticks/RNiOSPlugin.git"
   },
   "keywords": [
     "react-native"
