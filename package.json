@@ -1,0 +1,30 @@
+{
+  "name": "react-native-resulticks-library",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajaramLakshmanan/RNLibraryExample.git",
+    "baseUrl": "https://github.com/RajaramLakshmanan/RNLibraryExample"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Rajaram",
+    "email": "lrajarammca@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
