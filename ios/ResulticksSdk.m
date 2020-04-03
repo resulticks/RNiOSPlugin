@@ -1,14 +1,8 @@
+#import "ResulticksSdk.h"
 
-#import "RNMyFancyLibrary.h"
-//#import <REIOSSDK/REIOSSDK.h>
-#import <UserNotifications/UserNotifications.h>
-#import "REIOSSDK.framework/Headers/REIOSSDK.h"
-@implementation RNMyFancyLibrary
 
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
+@implementation ResulticksSdk
+
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(userRegister:(NSString *)userRegister) {

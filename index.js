@@ -1,6 +1,5 @@
-
 import { NativeModules } from 'react-native';
 
-const { RNMyFancyLibrary } = NativeModules;
+const { ResulticksSdk } = NativeModules;
 
-export default RNMyFancyLibrary;
+export default ResulticksSdk;

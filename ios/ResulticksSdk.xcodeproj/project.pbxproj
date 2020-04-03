@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2796575C242F35D200B9CC80 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796575B242F35D200B9CC80 /* Alamofire.framework */; };
-		27965762242F35E800B9CC80 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796575D242F35E800B9CC80 /* CryptoSwift.framework */; };
-		27965763242F35E800B9CC80 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796575E242F35E800B9CC80 /* Starscream.framework */; };
-		27965764242F35E800B9CC80 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796575F242F35E800B9CC80 /* SocketIO.framework */; };
-		27965765242F35E800B9CC80 /* REIOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27965760242F35E800B9CC80 /* REIOSSDK.framework */; };
-		27965766242F35E800B9CC80 /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27965761242F35E800B9CC80 /* IDZSwiftCommonCrypto.framework */; };
-		B3E7B58A1CC2AC0600A0062D /* RNMyFancyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNMyFancyLibrary.m */; };
+		B3E7B58A1CC2AC0600A0062D /* ResulticksSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* ResulticksSdk.m */; };
+		FF8AE800243605D3007558C0 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE7FF243605D3007558C0 /* UserNotifications.framework */; };
+		FF8AE8072436066E007558C0 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8012436066E007558C0 /* CryptoSwift.framework */; };
+		FF8AE8082436066E007558C0 /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8022436066E007558C0 /* IDZSwiftCommonCrypto.framework */; };
+		FF8AE8092436066E007558C0 /* REIOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8032436066E007558C0 /* REIOSSDK.framework */; };
+		FF8AE80A2436066E007558C0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8042436066E007558C0 /* Alamofire.framework */; };
+		FF8AE80B2436066E007558C0 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8052436066E007558C0 /* SocketIO.framework */; };
+		FF8AE80C2436066E007558C0 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8AE8062436066E007558C0 /* Starscream.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,16 +30,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNMyFancyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMyFancyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2796575B242F35D200B9CC80 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
-		2796575D242F35E800B9CC80 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
-		2796575E242F35E800B9CC80 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
-		2796575F242F35E800B9CC80 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
-		27965760242F35E800B9CC80 /* REIOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = REIOSSDK.framework; sourceTree = "<group>"; };
-		27965761242F35E800B9CC80 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDZSwiftCommonCrypto.framework; sourceTree = "<group>"; };
-		27C63A86242F8CE500BE96DB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNMyFancyLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMyFancyLibrary.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNMyFancyLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMyFancyLibrary.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libResulticksSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libResulticksSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* ResulticksSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResulticksSdk.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* ResulticksSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResulticksSdk.m; sourceTree = "<group>"; };
+		FF8AE7FF243605D3007558C0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		FF8AE8012436066E007558C0 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = "<group>"; };
+		FF8AE8022436066E007558C0 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDZSwiftCommonCrypto.framework; sourceTree = "<group>"; };
+		FF8AE8032436066E007558C0 /* REIOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = REIOSSDK.framework; sourceTree = "<group>"; };
+		FF8AE8042436066E007558C0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		FF8AE8052436066E007558C0 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketIO.framework; sourceTree = "<group>"; };
+		FF8AE8062436066E007558C0 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,12 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27965765242F35E800B9CC80 /* REIOSSDK.framework in Frameworks */,
-				2796575C242F35D200B9CC80 /* Alamofire.framework in Frameworks */,
-				27965763242F35E800B9CC80 /* Starscream.framework in Frameworks */,
-				27965762242F35E800B9CC80 /* CryptoSwift.framework in Frameworks */,
-				27965766242F35E800B9CC80 /* IDZSwiftCommonCrypto.framework in Frameworks */,
-				27965764242F35E800B9CC80 /* SocketIO.framework in Frameworks */,
+				FF8AE800243605D3007558C0 /* UserNotifications.framework in Frameworks */,
+				FF8AE80C2436066E007558C0 /* Starscream.framework in Frameworks */,
+				FF8AE8082436066E007558C0 /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				FF8AE8092436066E007558C0 /* REIOSSDK.framework in Frameworks */,
+				FF8AE80B2436066E007558C0 /* SocketIO.framework in Frameworks */,
+				FF8AE80A2436066E007558C0 /* Alamofire.framework in Frameworks */,
+				FF8AE8072436066E007558C0 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,41 +63,41 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNMyFancyLibrary.a */,
+				134814201AA4EA6300B7C361 /* libResulticksSdk.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		27965784242F733600B9CC80 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNMyFancyLibrary.h */,
-				B3E7B5891CC2AC0600A0062D /* RNMyFancyLibrary.m */,
-				27C63A86242F8CE500BE96DB /* UserNotifications.framework */,
-				2796575D242F35E800B9CC80 /* CryptoSwift.framework */,
-				27965761242F35E800B9CC80 /* IDZSwiftCommonCrypto.framework */,
-				27965760242F35E800B9CC80 /* REIOSSDK.framework */,
-				2796575F242F35E800B9CC80 /* SocketIO.framework */,
-				2796575E242F35E800B9CC80 /* Starscream.framework */,
-				2796575B242F35D200B9CC80 /* Alamofire.framework */,
+				B3E7B5881CC2AC0600A0062D /* ResulticksSdk.h */,
+				B3E7B5891CC2AC0600A0062D /* ResulticksSdk.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				27965784242F733600B9CC80 /* Frameworks */,
+				FF8AE7FE243605D3007558C0 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		FF8AE7FE243605D3007558C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF8AE8042436066E007558C0 /* Alamofire.framework */,
+				FF8AE8012436066E007558C0 /* CryptoSwift.framework */,
+				FF8AE8022436066E007558C0 /* IDZSwiftCommonCrypto.framework */,
+				FF8AE8032436066E007558C0 /* REIOSSDK.framework */,
+				FF8AE8052436066E007558C0 /* SocketIO.framework */,
+				FF8AE8062436066E007558C0 /* Starscream.framework */,
+				FF8AE7FF243605D3007558C0 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNMyFancyLibrary */ = {
+		58B511DA1A9E6C8500147676 /* ResulticksSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMyFancyLibrary" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "ResulticksSdk" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -105,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = RNMyFancyLibrary;
+			name = ResulticksSdk;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNMyFancyLibrary.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libResulticksSdk.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +118,7 @@
 		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
@@ -124,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMyFancyLibrary" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "ResulticksSdk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -137,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNMyFancyLibrary */,
+				58B511DA1A9E6C8500147676 /* ResulticksSdk */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNMyFancyLibrary.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* ResulticksSdk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,14 +164,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -206,14 +214,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -244,20 +258,13 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-cxxreact",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/Public/React-jsi",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsiexecutor",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsinspector",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/ReactCommon",
-					"${SRCROOT}/../../../ios/Pods/Headers/Private/React-Core",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMyFancyLibrary;
+				PRODUCT_NAME = ResulticksSdk;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -271,20 +278,13 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-cxxreact",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/Public/React-jsi",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsiexecutor",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsinspector",
-					"${SRCROOT}/../../../ios/Pods/Headers/Public/ReactCommon",
-					"${SRCROOT}/../../../ios/Pods/Headers/Private/React-Core",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNMyFancyLibrary;
+				PRODUCT_NAME = ResulticksSdk;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -292,7 +292,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNMyFancyLibrary" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "ResulticksSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -301,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNMyFancyLibrary" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "ResulticksSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
