@@ -258,9 +258,15 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/",
+					"${SRCROOT}/../../../ios/Pods/Headers/Private/React-Core",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/ReactCommon",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsinspector",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsiexecutor",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/Public/React-jsi",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-cxxreact",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -278,9 +284,15 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/",
+					"${SRCROOT}/../../../ios/Pods/Headers/Private/React-Core",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/ReactCommon",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsinspector",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-jsiexecutor",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/Public/React-jsi",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-cxxreact",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public/React-Core",
+					"${SRCROOT}/../../../ios/Pods/Headers/Public",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";

@@ -1,23 +1,23 @@
 {
-  "name": "react-native-resulticks-sdk",
+  "name": "reiossdk-plugin",
   "title": "React Native Resulticks Sdk",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.5",
+  "description": "SDK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-resulticks-sdk.git",
-    "baseUrl": "https://github.com/github_account/react-native-resulticks-sdk"
+    "url": "git+https://github.com/resulticks/RNiOSPlugin.git",
+    "baseUrl": "https://github.com/resulticks/RNiOSPlugin.git"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Sivakumar R",
+    "email": "int.rsivakumar@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
